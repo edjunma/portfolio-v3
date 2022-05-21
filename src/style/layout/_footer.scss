@@ -1,0 +1,118 @@
+.footer {
+  background-color: $dark-grey;
+  color: $white-color;
+  padding: 4.8rem 0;
+
+  @include respond(phone) {
+    border: 0px;
+  }
+
+  &__text {
+    color: darken(white, 50%);
+    font-size: 1.3rem;
+
+    a {
+      color: darken(white, 50%);
+      font-size: 1.3rem;
+      transition: all 0.4s;
+      display: inline-block;
+      background-color: $dark-grey;
+
+      &:hover,
+      &:active {
+        background: radial-gradient(
+          circle,
+          #86E3CE 0%,
+          #D0E6A5 20%,
+          #FFDD94 40%,
+          #FA897B 60%,
+          #CCABD8 100%
+        );
+        -webkit-background-clip: text;
+        color: transparent;
+        background-size: 400%;
+        animation: gradient 10s linear infinite alternate;
+        -webkit-box-shadow: 0.75rem 0.75rem 0.75rem rgba(0, 0, 0, 0.15);
+        box-shadow: 0.8rem 0.75rem 0.75rem rgba(0, 0, 0, 0.15);
+        font-weight: bold;
+        transform: rotate(3deg) scale(1.1) !important;
+      }
+    }
+  }
+
+  & hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 50%;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white-color;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin: $default-font-size $default-font-size;
+    overflow: hidden;
+    transition: 0.3s linear;
+    position: relative;
+
+    &:hover {
+      transform: scale(1.2);
+      border-radius: 50%;
+    }
+  }
+
+  a i::before {
+    background-size: 300% 300%;
+    background-position: 75% 75%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.5s linear;
+  }
+
+  a:hover i::before {
+    background-position: 0% 0%;
+  }
+
+  .fa.fa-linkedin::before {
+    background-image: linear-gradient(135deg, #007bb5 50%, #fff 50%);
+  }
+
+  .fa.fa-github::before {
+    background-image: linear-gradient(135deg, #131418 50%, #fff 50%);
+  }
+
+  .fa.fa-twitter::before {
+    background-image: linear-gradient(135deg, #1da1f2 50%, #fff 50%);
+  }
+
+  .fa.fa-instagram::before {
+    background-image: linear-gradient(135deg, #c32aa3 50%, #fff 50%);
+  }
+
+  .fa.fa-codepen::before {
+    background-image: linear-gradient(135deg, #4c75a3 50%, #fff 50%);
+  }
+}
+
+.back-to-top i {
+  color: $white-color;
+  margin: 1rem 0 $default-font-size;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
