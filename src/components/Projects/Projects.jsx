@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          Source Code <i className="fa-brands fa-github" />
                         </a>
                       )}
                     </div>
