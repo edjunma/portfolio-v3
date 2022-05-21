@@ -28,7 +28,7 @@ export const aboutData = {
   paragraphTwo:
     'I design and build UI components to enhance website applications performance and user experience using modern technologies like React, JavaScript, and SCSS. Also have been dabbling with Gatsby.js and Next.js for static sites, and Python for scripting/automation & web-scraping.',
   paragraphThree:
-    "During my pastime, I am passionate about traveling the world and experiencing the vast nature & culture out there, good food and the beautiful art of cooking, a noodle-soup connoisseur & aficionado of the finest herbs, a touch of health & fitness so my knees don't fold on me, a sprinkle of gaming, and just a smidge of anime but to me the most important of all, is spending time with loved ones & doggos 🐶.",
+    'During my pastime, I am passionate about traveling the world and experiencing the vast nature & culture out there, some good food and the beautiful art of cooking, noodle-soup connoisseur & aficionado of the finest herbs, a touch of health & fitness, a sprinkle of gaming, and just a dash of anime but to me the most important of all, is spending time with loved ones & doggos 🐶.',
   resume: 'https://edjunma.github.io/EJM-Resume/',
 };
 
