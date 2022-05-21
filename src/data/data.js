@@ -17,18 +17,18 @@ export const heroData = {
   title: "Hello there ✌🏼, I'm ",
   name: 'Edmond',
   subtitle: 'A ',
-  cta: 'About Me',
+  cta: 'Click Me!',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey, I'm Edmond! I'm a Front-End Web Developer currently working in New York City. On the Winter of 2018, I fell in love with the capabilities of web development & software engineering after learning from various resources online such as FreeCodeCamp, Udemy, and YouTube. Since then I've been grateful to be on this life-long journey as a self-taught developer striving to improve day by day, little by little, getting 1% better everyday.",
+    "Hey, I'm Edmond! I'm a Front-End Web Developer currently working in New York City. During the Winter of 2018, I stumbled upon various online resources like FreeCodeCamp, Udemy, and YouTube to learn more about programming, and ever since, I was captivated by the infinite and creative capabilities of web development & software engineering. From that day forward I've promised myself to travel along the life-long journey of a self-taught developer and a permanent student of the craft striving to improve little by little, getting 1% better every day.",
   paragraphTwo:
-    'I design and build UI components to enhance website applications performance and user experience using modern technologies like React, JavaScript, and SCSS. Also have been dabbling with Gatsby.js and Next.js for static sites, and Python for scripting/automation & web-scraping.',
+    'I design and build UI components to enhance website application performance and user experience using modern technologies like React, JavaScript, and SCSS. Also have been dabbling with Gatsby.js and Next.js for static sites, and Python for scripting/automation & web-scraping.',
   paragraphThree:
-    'During my pastime, I am passionate about traveling the world and experiencing the vast nature & culture out there, some good food and the beautiful art of cooking, noodle-soup connoisseur & aficionado of the finest herbs, a touch of health & fitness, a sprinkle of gaming, and just a dash of anime but to me the most important of all, is spending time with loved ones & doggos 🐶.',
+    'During my pastime, I am passionate about traveling the world and experiencing the vast nature & culture out there, some good food and the beautiful art of cooking, noodle-soup connoisseur & aficionado of the finest herbs, a touch of health & fitness, a sprinkle of gaming, and a dash of anime but to me, the most valuable of all, is spending time with loved ones & my doggos 🐶.',
   resume: 'https://edjunma.github.io/EJM-Resume/',
 };
 

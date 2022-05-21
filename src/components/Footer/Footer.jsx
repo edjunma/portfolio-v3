@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Developed with{' '}
+          © {new Date().getFullYear()} - Developed with lots of{' '}
           <span className="footer-heart" aria-label="heart" role="img">
             💖
           </span>{' '}
