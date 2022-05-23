@@ -61,6 +61,15 @@ export const projectsData = [
     url: 'https://apex-legends-tracker.herokuapp.com/',
     repo: 'https://github.com/edjunma/apex-legends-tracker', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project-4-portfolio.jpg',
+    title: 'edmondma.dev Portfolio',
+    info: 'Current and latest iteration of my portfolio built using Gatsby.js, React.js, and SASS.',
+    info2: '',
+    url: 'https://www.edmondma.dev',
+    repo: 'https://github.com/edjunma/portfolio-v3', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
