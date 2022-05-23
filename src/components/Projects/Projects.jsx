@@ -52,7 +52,7 @@ const Projects = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
+                        className="cta-btn cta-btn--hero text-color-main"
                         href={url || '#!'}
                       >
                         View Demo&nbsp;&nbsp;
@@ -63,7 +63,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--github text-color-main"
                           href={repo}
                         >
                           <i className="fa-brands fa-github-alt" />
