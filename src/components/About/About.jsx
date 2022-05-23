@@ -74,7 +74,8 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      View Resume
+                      <i className="fa-solid fa-file" />
+                      &nbsp;&nbsp;View Resume
                     </a>
                   </span>
                 )}

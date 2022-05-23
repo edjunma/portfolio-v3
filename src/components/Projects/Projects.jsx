@@ -55,7 +55,8 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        View Demo
+                        View Demo&nbsp;&nbsp;
+                        <i className="fa-solid fa-laptop-code" />
                       </a>
 
                       {repo && (
@@ -65,8 +66,8 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code&nbsp;
                           <i className="fa-brands fa-github-alt" />
+                          &nbsp;&nbsp;Source Code
                         </a>
                       )}
                     </div>

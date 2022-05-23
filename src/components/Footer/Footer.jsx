@@ -40,8 +40,8 @@ const Footer = () => {
             💖
           </span>{' '}
           &{' '}
-          <span className="footer-tea" aria-label="tea" role="img">
-            🍵
+          <span className="footer-coffee" aria-label="tea" role="img">
+            ☕
           </span>{' '}
           by{' '}
           <a href="https://github.com/edjunma" target="_blank" rel="noopener noreferrer">
