@@ -24,7 +24,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey, I'm Edmond! I'm a Front-End Web Developer currently working in New York City. During the Winter of 2018, I stumbled upon various online resources like FreeCodeCamp, Udemy, and YouTube to learn more about programming, and ever since, I was captivated by the infinite and creative capabilities of web development & software engineering. From that day forward I've promised myself to travel along the life-long journey of a self-taught developer and a permanent student of the craft striving to improve little by little, getting 1% better every day.",
+    "Hey, I'm Edmond! I'm a Front-End Web Developer currently working in New York City. During the Winter of 2018, I stumbled upon various online resources like FreeCodeCamp, CS50, and TheOdinProject to learn more about programming, and ever since, I was captivated by the infinite and creative capabilities of web development & software engineering. From that day forward I've promised myself to travel along the life-long journey of a self-taught developer and a permanent student of the craft striving to improve little by little, getting 1% better every day.",
   paragraphTwo:
     'I design and build UI components to enhance website application performance and user experience using modern technologies like React, JavaScript, and SCSS. Also have been dabbling with Gatsby.js and Next.js for static sites, and Python for scripting/automation & web-scraping.',
   paragraphThree:
