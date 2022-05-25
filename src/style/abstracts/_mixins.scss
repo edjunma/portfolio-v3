@@ -13,6 +13,13 @@ ORDER: Base + Typography > General Layout + Grid > Page Layout > Components
 
 */
 @mixin respond($breakpoint) {
+
+  // Responsive
+  @if $breakpoint == responsive {
+    @media (max-width: 20em) {
+      @content;
+    } //0 - 320px
+  }
   // Phone-xs
   @if $breakpoint == phone-xs {
     @media (max-width: 23.7em) {

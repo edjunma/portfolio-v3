@@ -31,11 +31,21 @@
   border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   border-image-slice: 1;
   cursor: pointer;
+
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
     border: 2px solid $secondary-color;
     -webkit-text-fill-color: $secondary-color;
+    margin-right: 0.7em;
+  }
+
+  @include respond(tab-port) {
+    margin-right: 0.7em;
+  }
+
+  @include respond(ipad-pro) {
+    margin-right: 0.7em;
   }
 
   &::after {
@@ -89,7 +99,7 @@
   border-style: solid;
   border-image: linear-gradient(135deg, $github-primary-color 0%, $github-secondary-color 100%);
   border-image-slice: 1;
-  margin-left: 0.7em;
+  margin-left: 1em;
   cursor: pointer;
 
   // Responsive Button hero style
@@ -99,14 +109,15 @@
   }
 
   @include respond(phone-xs) {
-    margin-left: auto;
+    margin-right: 10px;
   }
 
   @include respond(phone) {
     background-image: none;
     border: 2px solid $github-secondary-color;
     -webkit-text-fill-color: $github-secondary-color;
-    margin-left: 0.7em;
+    margin-left: auto;
+    margin-top: 0.7em;
   }
 
   &::after {
