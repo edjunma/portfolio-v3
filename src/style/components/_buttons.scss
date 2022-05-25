@@ -89,14 +89,22 @@
   border-style: solid;
   border-image: linear-gradient(135deg, $github-primary-color 0%, $github-secondary-color 100%);
   border-image-slice: 1;
-  margin-left: 15px;
+  margin-left: 0.7em;
   cursor: pointer;
+
   // Responsive Button hero style
+  @include respond(phone-xs) {
+    margin-left: auto;
+  }
+
   @include respond(phone) {
     background-image: none;
     border: 2px solid $github-secondary-color;
     -webkit-text-fill-color: $github-secondary-color;
-    margin-left: 10px;
+  }
+
+  @include respond(tab-land) {
+    margin-top: 0.7em;
   }
 
   &::after {
