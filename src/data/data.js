@@ -9,7 +9,7 @@ export const navData = {
 export const headData = {
   title: 'Edmond Ma | Portfolio',
   lang: 'en, es, fr, jp',
-  description: 'Domain Expansion: Portfolio',
+  description: 'Domain Expansion: Show me the Portfolio',
 };
 
 // HERO DATA
