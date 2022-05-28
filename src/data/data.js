@@ -70,6 +70,15 @@ export const projectsData = [
     url: 'https://www.edmondma.dev',
     repo: 'https://github.com/edjunma/portfolio-v3', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project-5-blog.jpg',
+    title: 'My Digital Garden',
+    info: 'Blog made with Next.js.',
+    info2: '',
+    url: 'https://blog-v3-five.vercel.app/',
+    repo: 'https://github.com/edjunma/blog-v3', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA

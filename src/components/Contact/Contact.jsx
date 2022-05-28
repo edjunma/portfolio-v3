@@ -13,7 +13,7 @@ const Contact = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setCopySuccess('');
-    }, 5000);
+    }, 6000);
     return () => clearTimeout(timer);
   }, [copySuccess]);
 
