@@ -74,7 +74,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project-5-blog.jpg',
     title: 'My Digital Garden',
-    info: 'Blog made with Next.js.',
+    info: 'Blog made with Next.js. and styled with TailwindCSS',
     info2: '',
     url: 'https://blog-v3-five.vercel.app/',
     repo: 'https://github.com/edjunma/blog-v3', // if no repo, the button will not show up
