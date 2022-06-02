@@ -22,7 +22,7 @@ const Contact = () => {
       await navigator.clipboard.writeText(email);
       setCopySuccess(`${email} copied to clipboard! 📋✅`);
     } catch (err) {
-      setCopySuccess('Failed to copy email address!');
+      setCopySuccess('Failed to copy email address! 📋❌');
     }
     setInstructions('');
   };
@@ -43,7 +43,7 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <p>
+            <p className="email-instructions">
               {copySuccess} {instructions}
             </p>
             <a
@@ -53,8 +53,7 @@ const Contact = () => {
               // href={email ? `mailto:${email}` : 'https://github.com/edjunma/portfolio-v3'}
               onClick={() => copyToClipBoard(email)}
               onKeyDown={copyToClipBoard}
-              onMouseOver={showInstruction}
-              onFocus={showInstruction}
+              onMouseEnter={showInstruction}
             >
               {btn || "Let's Talk"}
             </a>

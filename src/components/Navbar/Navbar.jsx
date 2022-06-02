@@ -27,7 +27,8 @@ const Navbar = () => {
             <Link to="contact" smooth duration={1000} className="">Contact</Link>
           </li>
           <li>
-            <a href="/blog" className="">Blog</a>
+            <a href="https://blog-v3-five.vercel.app/" className="" target="_blank"
+          rel="noopener noreferrer">Blog</a>
           </li>
         </ul>
       </nav>

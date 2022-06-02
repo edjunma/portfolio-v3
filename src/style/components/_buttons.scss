@@ -147,6 +147,7 @@
   color: $white-color;
   border: 2px solid $white-color;
   border-radius: 4px;
+  margin-top: 1rem;
 
   &::after {
     background: $white-color;
@@ -155,8 +156,8 @@
   &:hover {
     color: $secondary-color;
     text-decoration: none;
-    -webkit-transform: translateY(2px);
-	  transform: translateY(2px);
+    -webkit-transform: translate(3px, 2px);
+	  transform: translate(3px, 2px);
 
     &::after {
       width: 100%;
