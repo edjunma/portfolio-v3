@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
-const Footer = () => {
+function Footer() {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
 
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Developed with much{' '}
+          © {new Date().getFullYear()} - Developed with {' '}
           <span className="footer-heart" aria-label="heart" role="img">
             💖
           </span>{' '}
@@ -51,6 +51,6 @@ const Footer = () => {
       </Container>
     </footer>
   );
-};
+}
 
 export default Footer;
