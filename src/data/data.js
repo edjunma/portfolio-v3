@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { nanoid } from 'nanoid';
 
 // NAVBAR DATA
@@ -28,7 +29,7 @@ export const aboutData = {
   paragraphTwo:
     'I design and build UI components to enhance website application performance and user experience using modern technologies like React, JavaScript, and SCSS. Also have been dabbling with Gatsby.js and Next.js for static sites, and Python for scripting/automation & web-scraping.',
   paragraphThree:
-    'During my pastime, I have other passions such as traveling the world and experiencing the vast nature & culture out there, some good food and the beautiful art of cooking, noodle-soup connoisseur & aficionado of herbs, a touch of health & fitness, a sprinkle of gaming, and a dash of anime but to me, the most valuable of all, is spending time with loved ones & my doggos 🐶.',
+    "When I'm not pushing 🅿️ixels & code, you can catch me outside on an adventure filling up my tummy and exploring the vast nature & culture of our world and then we take it inside and I am invested in the beautiful art of cooking, exercising because health is wealth, a sprinkle of gaming, and a dash of anime. But to me the most valuable time spent is always with doggos 🐶 and the ones you love ❤️.",
   resume: 'https://edjunma.github.io/EJM-Resume/',
 };
 
@@ -113,7 +114,7 @@ export const footerData = {
       id: nanoid(),
       title: 'Instagram',
       name: 'instagram',
-      url: 'https://www.instagram.com/edjunma/',
+      url: 'https://www.instagram.com/edmondma.dev/',
     },
     {
       id: nanoid(),

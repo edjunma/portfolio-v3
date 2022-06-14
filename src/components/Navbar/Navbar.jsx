@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
 
       // hamburger menu
-      <button>Menu</button>
+      <button className="">Menu</button>
       // navbar
       <nav>
         <ul>

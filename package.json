@@ -45,7 +45,7 @@
     "sass": "^1.52.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.3",
+    "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0 || ^8.2.0",

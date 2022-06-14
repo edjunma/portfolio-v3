@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
-const Contact = () => {
+function Contact() {
   const { contact } = useContext(PortfolioContext);
   const { cta, btn, email } = contact;
   const [copySuccess, setCopySuccess] = useState('');
@@ -62,6 +62,6 @@ const Contact = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default Contact;
