@@ -25,11 +25,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey, I'm Edmond! I'm a Front-End Web Developer currently based in New York City. During the Winter of 2018, I stumbled upon various online resources to learn web development and programming such as FreeCodeCamp, CS50, and TheOdinProject. As soon as I started, I was captivated by the infinite and creative capabilities of web development & software engineering. On that day, I've promised myself to travel along the life-long journey of a self-taught developer and a permanent student of the craft striving to improve consistently, getting 1% better each and every day.",
+    "Hey, I'm Edmond! I'm a Front-End Web Developer currently based in New York City. During the Winter of 2018, I stumbled upon various resources online to learn web development and programming such as FreeCodeCamp, CS50, and TheOdinProject. As soon as I began, I was captivated by the infinite and creative capabilities of web development & programming. On that day, I've promised myself to travel along the life-long journey of a self-taught developer and become a permanent student of the craft striving to improve consistently, getting 1% better each and every day.",
   paragraphTwo:
     'I design and build UI components to enhance website application performance and user experience using modern technologies like React, JavaScript, and SCSS. Also have been dabbling with Gatsby.js and Next.js for static sites, and Python for scripting/automation & web-scraping.',
   paragraphThree:
-    "When I'm not pushing 🅿️ixels & code, you can catch me outside on an adventure filling up my tummy and exploring the vast nature & culture of our world and then we take it inside and I am invested in the beautiful art of cooking, exercising because health is wealth, a sprinkle of gaming, and a dash of anime. But to me the most valuable time spent is always with doggos 🐶 and the ones you love ❤️.",
+    "When I'm not pushing 🅿️ixels & code, you can catch me outside eating and exploring away at the vast nature & unique culture our world has to offer and then we take it back inside and I am passionate in the intricate process of cooking, mindfulness & exercise because health is wealth, a sprinkle of gaming, a dash of anime, and a chunk of my time to go on adventures and create unforgettable memories with doggos 🐶 and with the people I ❤️.",
   resume: 'https://edjunma.github.io/EJM-Resume/',
 };
 
