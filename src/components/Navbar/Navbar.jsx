@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+function Navbar() {
   return (
     <section id="navbar">
-      // logo
+      {/* // logo */}
       <div>
-        <img src="" alt="logo" className=""></img>
+        <img src="" alt="logo" className="" />
       </div>
 
-      // hamburger menu
-      <button className="">Menu</button>
-      // navbar
+      {/* // hamburger menu */}
+      <button type="button" className="">Menu</button>
+      {/* // navbar */}
       <nav>
         <ul>
           <li>
@@ -27,13 +27,18 @@ const Navbar = () => {
             <Link to="contact" smooth duration={1000} className="">Contact</Link>
           </li>
           <li>
-            <a href="https://blog-v3-five.vercel.app/" className="" target="_blank"
-          rel="noopener noreferrer">Blog</a>
+            <a
+              href="https://blog-v3-five.vercel.app/"
+              className=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >Blog
+            </a>
           </li>
         </ul>
       </nav>
     </section>
   )
-};
+}
 
 export default Navbar;
