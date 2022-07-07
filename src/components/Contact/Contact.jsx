@@ -20,7 +20,7 @@ function Contact() {
   const copyToClipBoard = async () => {
     try {
       await navigator.clipboard.writeText(email);
-      setCopySuccess(`${email} copied to clipboard! 📋✅`);
+      setCopySuccess(`E-mail has been copied to clipboard! 📋✅`);
     } catch (err) {
       setCopySuccess('Failed to copy email address! 📋❌');
     }
@@ -31,7 +31,7 @@ function Contact() {
     if (copySuccess) {
       return;
     }
-    setInstructions(`Click to copy my email: ${email} 📋`);
+    setInstructions(`Copy my e-mail below: ${email} 📋`);
   }
 
   return (
@@ -44,16 +44,15 @@ function Contact() {
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
             <p className="email-instructions">
-              {copySuccess} {instructions}
+              {copySuccess} {instructions} {showInstruction}
             </p>
             <a
-              role="button"
+              type="button"
               aria-hidden="true"
               className="cta-btn cta-btn--contact"
-              // href={email ? `mailto:${email}` : 'https://github.com/edjunma/portfolio-v3'}
               onClick={() => copyToClipBoard(email)}
               onKeyDown={copyToClipBoard}
-              onMouseEnter={showInstruction}
+              title="Copy my email"
             >
               {btn || "Let's Talk"}
             </a>
