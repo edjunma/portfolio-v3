@@ -46,7 +46,7 @@ function Contact() {
             <p className="email-instructions">
               {copySuccess} {instructions} {showInstruction}
             </p>
-            <a
+            <button
               type="button"
               aria-hidden="true"
               className="cta-btn cta-btn--contact"
@@ -55,7 +55,7 @@ function Contact() {
               title="Copy my email"
             >
               {btn || "Let's Talk"}
-            </a>
+            </button>
           </div>
         </Fade>
       </Container>
