@@ -145,12 +145,13 @@
 
 /* Contact Style */
 .cta-btn--contact {
-  color: $primary-color;
-  background-color: $dark-grey;
-  border: 2px solid $secondary-color;
+  color: $white-color;
+  background-color: transparent;
+  border: 2px solid $white-color;
   border-radius: 4px;
   margin-top: 1rem;
-  padding: 1.5rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 2rem;
 
   &::after {
     background: $white-color;
