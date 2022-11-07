@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
+function Projects() {
   const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -45,14 +45,14 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'Lorem ipsum dolor.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero text-color-main"
+                        className="cta-btn cta-btn--project text-color-main"
                         href={url || '#!'}
                       >
                         View Demo&nbsp;&nbsp;
@@ -116,6 +116,6 @@ const Projects = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default Projects;

@@ -37,12 +37,9 @@ function Footer() {
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed with {' '}
           <span className="footer-heart" aria-label="heart" role="img">
-            💖
+            💟
           </span>{' '}
-          &{' '}
-          <span className="footer-coffee" aria-label="tea" role="img">
-            ☕
-          </span>{' '}
+          
           by{' '}
           <a href="https://github.com/edjunma" target="_blank" rel="noopener noreferrer">
             Edmond Ma

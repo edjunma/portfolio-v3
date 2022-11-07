@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
-const Header = () => {
+function Header() {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
 
@@ -38,7 +38,7 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
+              <Link to="about" smooth duration={1000} className="">
                 {cta || 'Know more'}&nbsp;
                 <i className="fa-regular fa-hand-point-left" />
               </Link>
@@ -48,6 +48,6 @@ const Header = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default Header;

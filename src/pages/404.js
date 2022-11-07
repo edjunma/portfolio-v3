@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { headData } from '../data/data';
 import '../style/main.scss';
 
-export default () => {
+export default function() {
   const { lang } = headData;
 
   return (

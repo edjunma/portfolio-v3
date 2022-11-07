@@ -13,14 +13,14 @@ function Contact() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setCopySuccess('');
-    }, 6000);
+    }, 8000);
     return () => clearTimeout(timer);
   }, [copySuccess]);
 
   const copyToClipBoard = async () => {
     try {
       await navigator.clipboard.writeText(email);
-      setCopySuccess(`E-mail has been copied to clipboard! 📋✅`);
+      setCopySuccess(`My e-mail has been copied to your clipboard 📋✅`);
     } catch (err) {
       setCopySuccess('Failed to copy email address! 📋❌');
     }
